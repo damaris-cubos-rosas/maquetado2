@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 8rem;
+    background-color: #00ff6d;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    background-color: #27ae60;
+    border-radius: 5px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.rectangle {
+    width: 100px;
+    height: 20px;
+    background-color: #27ae60;
+    border-radius: 5px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #27ae60;
+    border-radius: 25px;
+}
+
+main {
+    margin: 40px 30px;
+}
+
+.column {
+    float: left;
+    margin: 40px 30px;
+}
+
+.left {
+    background-color: #4f4f4f;
+    width: 20%;
+    height: 400px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    margin-bottom: 40px;
+    width: 90%;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.middle {
+    width: 30%;
+}
+
+#yellow {
+    height: 170px;
+    border-radius: 5px;
+    background-color: #f2c94c;
+    margin-bottom: 50px;
+}
+
+#red {
+    height: 170px;
+    border-radius: 5px;
+    background-color: #eb5757;
+}
+
+.right {
+    width: 30%;
+}
+
+#orange {
+    height: 170px;
+    border-radius: 5px;
+    background-color: #f2994a;
+    margin-bottom: 50px;
+}
+
+#purple {
+    height: 170px;
+    border-radius: 5px;
+    background-color: #bb6bd9;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    background-color:#35eb82;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-circle {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    background-color: #219653;
+    border-radius: 35px;
+}
+
+#footer-rectangle {
+    width: 400px;
+    height: 30px;
+    margin: auto;
+    background-color: #219653;
+    border-radius: 5px;
+}
